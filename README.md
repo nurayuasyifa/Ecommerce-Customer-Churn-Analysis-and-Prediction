@@ -1,5 +1,5 @@
 # E-COMMERCE CUSTOMER CHURN ANALYSIS AND PREDICTION
----
+
 ## Background
 - How to help business an product team to filter potential customer churn?
 
@@ -65,11 +65,22 @@ The percentage of churn due to customer complaints (32.9%) almost 3 times greate
 Customers who order the phone category tend to churn compared to customers who order categories of goods other.
 
 ## Machine Learning Modellling
-Before train the model, split data into train set (70%) and test set (30%). Train dataset akan dilatih ke beberapa algoritma machine learning yang berbeda dan dievaluasi menggunakan recall score sebagai metrics utamaa dan presicion sebagai metrics kedua. Metr
+Before the model is trained, the dataset needs to be divided into two datasets, namely training data and testing data. In this case, the percentage for training data is 70% and testing data is 30%. Then, the data is trained into several machine learning algorithms and evaluated using two metrics, namely Recall score as primary metrics and Precision as secondary metrics. The use of recall metrics aims to minimize false negative values where customers who actually churn are considered not to churn. The use of precision scores as secondary metrics aims to reduce the false positive value (customers who don't actually churn are considered churn) are not too large. The training data is trained into the following machine learning models
 - Logistic Regression
 - Decision Tree
 - KNN
 - Random Forest
 - XGBoost
 
-### Model Evaluation
+
+## Model Evaluation
+![table comparison](https://user-images.githubusercontent.com/99067852/162470906-8dd1ff34-e764-401b-b8ca-ab8aff5ffa91.jpg)
+
+The table above shows the performance of each model after hyperparameter tuning and the best model is obtained, namely XGboost with a recall test value of 0.86 and a precision test of 0.58. So XGBoost was chosen as the model that will be used to predict the new data.
+
+**Feature Importance**
+![Feature Importance Score](https://user-images.githubusercontent.com/99067852/162472132-47f617c9-bfef-4885-a95b-822c7bda72b7.png)
+
+
+
+
