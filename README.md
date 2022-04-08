@@ -64,7 +64,7 @@ The percentage of churn due to customer complaints (32.9%) almost 3 times greate
 **Observation & Insight :**
 Customers who order the phone category tend to churn compared to customers who order categories of goods other.
 
-### Machine Learning Modellling
+## Machine Learning Modellling
 Before train the model, split data into train set (70%) and test set (30%). Train dataset akan dilatih ke beberapa algoritma machine learning yang berbeda dan dievaluasi menggunakan recall score sebagai metrics utamaa dan presicion sebagai metrics kedua. Metr
 - Logistic Regression
 - Decision Tree
