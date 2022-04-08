@@ -35,6 +35,7 @@
 |18.|OrderCount|Total number of orders has been places in last month|
 |19.|DaySinceLastOrder|Day last order by customer|
 |20|CashbackAmount|Average cashback in last month|
+
 **Load Data :**
 - Target label : `Churn`
 - 18 feature
@@ -49,14 +50,17 @@
 
 ### Exploratory Data Analysis (EDA) 
 ![Monthly Churn](https://user-images.githubusercontent.com/99067852/162407929-bbef5ac4-7084-4535-bf16-1b54bda2ccd8.jpg)
+
 **Observation & Insight :**
 Customers with low Tenure (2 months first) has much higher churn potential from upper middle tenure
 
 ![Churn-not churn percentae composition of order category](https://user-images.githubusercontent.com/99067852/162407956-1e25eced-4a90-40db-a397-0bbc3eecd1e4.jpg)
+
 **Observation & Insight :**
 The percentage of churn due to customer complaints (32.9%) almost 3 times greater than churn percentage of total customers who did not complain (11.85%).
 
 ![Churn-not churn percentae composition of customer complain](https://user-images.githubusercontent.com/99067852/162407978-5099f4e7-6ee4-458d-9b64-4aa2fda604b6.jpg)
+
 **Observation & Insight :**
 Customers who order the phone category tend to churn compared to customers who order categories of goods other.
 
