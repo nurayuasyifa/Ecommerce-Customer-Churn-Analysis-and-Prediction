@@ -1,4 +1,4 @@
-## Ecommerce Customer Churn Analysis and Prediction : Project Overview
+# Ecommerce Customer Churn Analysis and Prediction : Project Overview
 
 ## Background
 Churn customer is a condition where customer is no longer subscribed or shopping on a platform/e-commerce. Churn customers can be caused a few things including:
