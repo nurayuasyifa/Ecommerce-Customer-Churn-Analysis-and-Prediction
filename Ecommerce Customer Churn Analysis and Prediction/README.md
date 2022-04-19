@@ -108,7 +108,7 @@ The table above shows the performance of each model after hyperparameter tuning 
 - For the first two months, where the condition of customers with low tenure tends to churn, special treatment needs to be given such as providing promos in the form of free delivery and cashback which is quite high.
 - The biggest contributor to churn is from the product phone category (60%), it is necessary to have cross selling for phone product buyers in order to attract more churn customers
 
-**This project made by :**
+**This project made by:**
 1. Andre Yudha Priyadi
 2. Dwi Susanto
 3. Mhd Fahmi Aziz
